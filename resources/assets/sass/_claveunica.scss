@@ -1,0 +1,122 @@
+/*
+	BTN Clave Única.
+	Estilos gráficos para el botón de clave única.
+	V 1.0.0
+	por David Barra, DGD.
+	09-07-2019
+*/
+
+.btn-cu{
+	display: inline-block;
+	padding: 8px 18px 8px 15px !important;
+	background-color: #0F69C4;
+	font-family: Roboto, sans-serif;
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #fff;
+	text-align: center;
+	vertical-align: middle;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+	user-select: none;
+	border-radius: 0;
+}
+
+.btn-cu {
+    &.super {
+        font-size: .8em;
+    }
+}
+
+.btn-cu .cl-claveunica{
+	color:#fff;
+	display: inline-block;
+	float: left;
+	text-indent: -9999px;
+	width: 24px;
+	height: 24px;
+	background: url(../img/logo_claveunica.svg); /* Esta URL debe ser modificada segun donde quede alojado el documento */
+	background-size: 24px 24px;
+}
+
+.btn-cu .texto{
+    padding-left: 3px;
+    font-weight: 500;
+    text-decoration: underline;
+    }
+
+.btn-cu:hover{
+    background-color: #0C549C;
+}
+
+.btn-cu:hover.hover-shw{
+    background-color: #0F69C4 !important;
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 1px 15px 0px rgba(0,0,0,0.2);
+}
+
+.btn-cu.s{
+    padding: 6px 14px 6px 12px !important;
+    font-size: 0.8rem;
+}
+
+.btn-cu.s .cl-claveunica{
+    width: 18px;
+    height: 18px;
+    background-size: 18px 18px;
+}
+
+.btn-cu.l{ 
+    padding: 11px 30px 11px 23px !important;
+    font-size: 1.25rem;
+    }
+
+.btn-cu.l .cl-claveunica{
+    width: 32px;
+    height: 32px;
+    background-size: 32px 32px;
+}
+
+.btn-cu {
+    &.btn-color-estandar {
+        background-color: #0F69C4;
+        color: #FFF;
+        &:hover {
+            background-color: #0C549C;
+            color: #FFF;
+        }
+        &:active {
+            background-color: #093F75;
+            color: #FFF;
+        }
+        &:focus {
+            background-color: #0C549C;
+            color: #FFF;
+            outline: 1px dashed #000;
+        }
+        
+    }
+}
+
+.btn-cu.btn-s {
+width: 130px;
+min-width: 130px;
+max-height: 36px;
+padding: 8px 10px !important;
+font-size: 14px;
+}
+
+.btn-cu.btn-s .cl-claveunica {
+width: 20px;
+height: 20px;
+background-size: 20px 20px;
+}
+
+.btn-cu.btn-fw {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
